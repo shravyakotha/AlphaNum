@@ -65,7 +65,7 @@ function clickForStart() {
 
 function alphaptrn(size) {
   
-var chars = "ABC";
+var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var charlen = chars.length;  
 
   for (let i = 0; i < size; i++) {
