@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body {
+  font-size: 65%;
+  margin: 0;
+  padding : 0;
+  height : 500px;
+  width : 100%;
+  background-image: url(./assets/template3.png);
+  background-size: cover;
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 60px;
+  color: whitesmoke;
+
+}
+#finalscore,#ptrn{
+
+  font-size: 25px;
+  color:palevioletred
+
+}
+#ptrn{
+  transition-duration: 5s;
+}
+
+#change {
+  color: palegreen;
+}
+
+#entire {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#box {
+  display:grid;
+  grid-template-columns: repeat(13,1fr);
+  grid-gap:2em;
+  grid-auto-rows: minmax(100px,auto);
+  max-width: 100%;
+  margin-top: 30px;
+  padding-top:30px;
+  }
+ 
+.alpha {
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+  }
+
+#line {
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+h3{
+  margin:200px 150px 0 150px;
+  font-size: 25px;
+  color : white;
+  text-align: center;
+}
+
+#hint{
+  display: flex;
+  justify-content: center;
+}
+
+#btn1,#btn6,#btn11,#btn16,#btn21,#btn26 {
+  padding: 15px 25px;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color:black;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  
+
+}
+
+#btn1:hover,#btn6:hover,#btn11:hover,#btn16:hover,#btn21:hover,#btn26:hover {
+  background-color: deeppink;
+}
+
+#btn1:active,#btn6:active,#btn11:active,#btn16:active,#btn21:active,#btn26:active {
+  background-color: hotpink;
+  transform: translateY(4px);
+}
+
+#btn2,#btn7,#btn12,#btn17,#btn22 {
+  padding: 15px 25px;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color : black;
+  background-color: gainsboro;
+  border: none;
+  border-radius: 15px;
+  
+
+}
+
+#btn2:hover,#btn7:hover,#btn12:hover,#btn17:hover,#btn22:hover {
+  background-color: dimgray;
+}
+
+#btn2:active,#btn7:active,#btn12:active,#btn17:active,#btn22:active {
+  background-color: darkgray;
+  transform: translateY(4px);
+}
+
+#btn3,#btn8,#btn13,#btn18,#btn23 {
+  padding: 15px 25px;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color:black;
+  background-color: sandybrown;
+  border: none;
+  border-radius: 15px;
+  
+
+}
+
+#btn3:hover,#btn8:hover,#btn13:hover,#btn18:hover,#btn23:hover {
+  background-color: orangered;
+}
+
+#btn3:active,#btn8:active,#btn13:active,#btn18:active,#btn23:active {
+  background-color: gold;
+  transform: translateY(4px);
+}
+
+#btn4,#btn9,#btn14,#btn19,#btn24 {
+  padding: 15px 25px;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color:black;
+  background-color: skyblue;
+  border: none;
+  border-radius: 15px;
+  
+
+}
+
+#btn4:hover,#btn9:hover,#btn14:hover,#btn19:hover,#btn24:hover {
+  background-color: royalblue;
+}
+
+#btn4:active,#btn9:active,#btn14:active,#btn19:active,#btn24:active {
+  background-color: aqua;
+  transform: translateY(4px);
+}
+
+#btn5,#btn10,#btn15,#btn20,#btn25 {
+  padding: 15px 25px;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color:black;
+  background-color: mediumspringgreen;
+  border: none;
+  border-radius: 15px;
+  
+
+}
+
+#btn5:hover,#btn10:hover,#btn15:hover,#btn20:hover,#btn25:hover {
+  background-color: mediumseagreen;
+}
+
+#btn5:active,#btn10:active,#btn15:active,#btn20:active,#btn25:active {
+  background-color: lime;
+  transform: translateY(4px);
+}
+
+.btn{
+  height : 80px;
+  width : 180px;
+  background: turquoise;
+  border-radius: 50%;
+  border : none;
+  margin : 20px;
+  font-size: 25px;
+}
+
+.btn:hover{
+  color : white;
+}
+
+#point{
+  font-size: 25px;
+  color : palegreen;
+}
+
+
+
+
